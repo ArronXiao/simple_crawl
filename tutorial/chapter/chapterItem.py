@@ -1,6 +1,6 @@
 
 import scrapy
 class ChapterItem(scrapy.Item):
-    index = scrapy.Field()
     title = scrapy.Field()
+    index = scrapy.Field()
     content = scrapy.Field()
